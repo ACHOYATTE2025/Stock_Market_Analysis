@@ -1,0 +1,89 @@
+.navbar {
+  background: #1a1d27;
+  border-bottom: 1px solid #2a2d3e;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+}
+
+.brandName {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.brandName:hover {
+  color: #6366f1;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.username {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.btnLogout {
+  background: transparent;
+  border: 1px solid #f87171;
+  color: #f87171;
+  border-radius: 8px;
+  padding: 0.45rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btnLogout:hover {
+  background: #f87171;
+  color: #ffffff;
+}
+
+.btnLink {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.btnLink:hover {
+  color: #ffffff;
+}
+
+.btnPrimary {
+  background: #6366f1;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.45rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #4f46e5;
+}
+

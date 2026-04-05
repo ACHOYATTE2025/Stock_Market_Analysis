@@ -1,0 +1,52 @@
+# ======================
+# Python / Backend
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.env
+
+# Logs
+*.log
+
+# POSTGRESQL
+*.db
+
+# ======================
+# Node / Frontend
+# ======================
+node_modules/
+dist/
+build/
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Docker
+# ======================
+*.pid
+*.seed
+
+# ======================
+# Coverage / tests
+# ======================
+.coverage
+htmlcov/
